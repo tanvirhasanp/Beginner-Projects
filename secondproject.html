@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background-color: rgb(5, 7, 0);">
+
+    <p style="color: rgb(12, 1, 1);background-color: rgb(228, 157, 212); font-size: 40px;" align="center"><b>Sign Up</b> </p>
+    <hr>
+    <p style="color: rgb(245, 224, 35); font-size: 25px;"> <marquee direction="left">You have to sign up first to enter the next page.Please fill up this information.</marquee> </p>
+    <hr>
+    <br>
+    <label for="name" style="font-size: 20px;color: aqua;">Name:</label>
+    <input type="text" id="name" name="name" placeholder="UserName" style="font-size: 15px;">
+    <br>
+    <br>
+    <label for="email"  style="font-size: 20px;color: aqua;">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="UserMail"  style="font-size: 15px;">
+    <br>
+    <br>
+    <label for="pass" style="font-size: 20px;color: aqua;">Password:</label>
+    <input type="password" id="pass" name="pass" placeholder="Password"  style="font-size: 15px;">
+    <br>
+    <br>
+    <label for="phn"  style="font-size: 20px;color: aqua;">Phone:</label>
+<select>
+<option value="cd">+880</option>
+<option value="cd">+910</option>
+<option value="cd">+540</option>
+<option value="cd">+760</option>
+</select>
+<input type="phone" id="phn" name="phn" placeholder="UserPhone" style="font-size: 15px;">
+<br>
+<br>
+<label for="date" style="color: bisque;font-size: 20px;">Date of Birth</label>
+<input type="date" id="date" name="date">
+<br>
+<p style="font-size: 20px;color: rgb(10, 173, 65);">Gender:</p> 
+<input type="radio" name="g"> <b style="color: aqua;">Male </b> 
+<input type="radio" name="g"><b style="color: aqua;">Female </b>  
+<input type="radio" name="g"><b style="color: aqua;">Others</b> 
+<br>
+<br>
+<label for="file" style="color: bisque;font-size: 20px;">Choose a file:</label>
+<input type="file" name="file" id="file" style="color: bisque;font-size: 15px;">
+<br>
+<br>
+<label for="country" style="color: bisque;font-size: 20px;" >Country:</label>
+<input list="con" placeholder="Country">
+<datalist id="con">
+    <option value="India" ></option>
+    <option value="Bangladesh" ></option>
+    <option value="Pakistan" ></option>
+    <option value="Russia" ></option>
+    <option value="Iran" ></option>
+</datalist>
+<br>
+<br>
+<b style="font-size: 20px;color: rgb(170, 223, 85);">Choose a country: </b>
+<select>
+    <option value="bd">Bangladesh</option>
+    <option value="bd">India</option>
+    <option value="bd">Pakistan</option>
+    <option value="bd">Nepal</option>
+    <option value="bd">Russia</option>
+</select>
+<br>
+
+<br>
+<label for="time" style="color: bisque;font-size: 20px;">Time</label>
+<input type="time" id="time" name="time">
+<br>
+<br>
+<input type="checkbox" id="ck" name="ck" >
+<label for="ck" style="color: bisque;font-size: 20px;">I have a Bike</label>
+<input type="checkbox" id="ckf" name="ckf" >
+<label for="ckf" style="color: bisque;font-size: 20px;">I have no car</label>
+<br>
+<br>
+<textarea name="cmt" cols="40" rows="10" placeholder="Comment Here"></textarea>
+<br>
+<br>
+<input type="Submit">
+<br>
+</body>
+</html>
